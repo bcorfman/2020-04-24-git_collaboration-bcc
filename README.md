@@ -13,3 +13,13 @@
 - `git switch <branch_name>`: switch over to an existing branch
 
 - `git switch -c <branch_name>: create and switch to a new branch all at once
+
+## Pull requests (Online merge)
+- `git push origin <branch_name>`: pushes branch to the remote
+    - this is where you will create the PR (online)
+    - you merge the PR (and also the branch) by accepting and merging the PR
+- don't forget to clean up your branches
+- `git fetch --prune`: cleans up the references in your `git log`
+- `git branch -d <branch_name>`: delete branch on your local machine
+    - it will tell you to move to another branch first
+
